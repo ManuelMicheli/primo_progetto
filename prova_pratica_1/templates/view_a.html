@@ -12,20 +12,10 @@
         <title>Lista materie</title>
     </head>
     <body>
-        <div id="tabella1">
-            <table class="tab1" border="1px">
-                <thead>
-                    <tr>
-                        <th>Matematica</th>
-                        <th>Italiano</th>
-                        <th>Inglese</th>
-                        <th>Storia</th>
-                        <th>Geografia</th>
-                    </tr>
-                </thead>
-                <tbody id="tbody"></tbody>
-            </table>
-        </div>
+        <ol>{% for x in list1 %} 
+     <li> {{ x }} </li>
+    {% endfor %}</ol>
+    <br/>
     </body> 
 {%endblock content%}
 
