@@ -1,0 +1,31 @@
+{% extends "base.html"%}
+
+{%block title%} {{block.super}} | Prova pratica 1 {%endblock title%}
+
+{%block content%}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lista materie</title>
+    </head>
+    <body>
+        <div id="tabella1">
+            <table class="tab1" border="1px">
+                <thead>
+                    <tr>
+                        <th>Matematica</th>
+                        <th>Italiano</th>
+                        <th>Inglese</th>
+                        <th>Storia</th>
+                        <th>Geografia</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody"></tbody>
+            </table>
+        </div>
+    </body> 
+{%endblock content%}
+

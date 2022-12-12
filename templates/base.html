@@ -47,7 +47,7 @@
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                    Prova Pratica
+                    Prova Pratica 0
                   </a>
                   <div class="dropdown-menu">
                     <a class="dropdown-item" href="{%url 'prova_pratica_0:somma'%}">somma</a>
@@ -55,7 +55,25 @@
                     <div class="dropdown-divider"></div>
                   </div>
                 </li>
-
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                    News
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="{%url 'news:lista_articoli'%}">Articoli</a>
+                    <a class="dropdown-item" href="{%url 'news:lista_giornalisti'%}">Giornalisti</a>
+                    <div class="dropdown-divider"></div>
+                  </div>
+                </li>
+                Prova Pratica 1
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="{%url 'prova_pratica_1:view_a'%}">Lista Materie</a>
+                <a class="dropdown-item" href="{%url 'prova_pratica_1:view_b'%}">Voti Studenti</a>
+                <a class="dropdown-item" href="{%url 'prova_pratica_1:view_c'%}">Media Studenti</a>
+                <div class="dropdown-divider"></div>
+              </div>
+            </li>
       </ul>
     </div>
   </nav>
