@@ -4,7 +4,10 @@ def index2(request):
     return render(request,"index2.html") 
 
 def view_a(request):
-    return render(request,"view_a.html")
+     context= {
+        'list1':["Matematica", "Italiano", "Inglese", "Storia", "Geografia"]
+     }
+     return render(request, "view_a.html",context)
 
 def view_b(request):
     return render(request,"view_b.html")
